@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="landing.html" method="get">
+        <!-- Name Section -->
+        <label >Firstname:</label>
+        <input type="text" required><br><br>
+
+        <label >Middlename:</label>
+        <input type="text" required><br><br>
+
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <!-- Gender Section -->
+        <label>Gender:</label>
+        <br>
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other" >
+        <label for="other">Other</label><br><br>
+
+        <!--Hobbies section-->
+        <label>Hobbies:</label>
+        <br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" >
+        <label for="reading">reading</label><br>
+
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">sports</label><br>
+
+        <input type="checkbox" id="travelling" name="hobbies" value="travelling">
+        <label for="travelling">travelling</label><br><br>
+        <!-- city Section -->
+        <label for="city">City:</label>
+        <select >
+            <option>Select your city</option>
+            <option value="delhi">Delhi</option>
+            <option value="meerut">Meerut</option>
+            <option value="lucknow">Lucknow</option>
+        </select><br><br>
+        <!--dob section-->
+        <label for="dob">DATE oF bIRTH:</label>
+        <input type="date" id="dob" name="dob" ><br><br>
+        <!-- Phone Section -->
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" value="+91"><br><br>
+
+        <!-- Address Section -->
+        <label for="address" >Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Submit Button -->
+        
+        <button type="register">Submit</button>
+    
+        
+    </form>
+</body>
+</html>
